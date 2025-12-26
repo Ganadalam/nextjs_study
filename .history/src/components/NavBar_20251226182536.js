@@ -13,12 +13,7 @@ export default function NavBar() {
         Home
       </Link>
 
-      <Link
-        href="/about"
-        style={{ color: router.pathname === "/about" ? "red" : "blue" }}
-      >
-        About
-      </Link>
+      <Link href="/about">About</Link>
     </nav>
   );
 }
